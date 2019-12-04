@@ -1,16 +1,10 @@
 
-
-
 body {
     background-color: black;
     color: white;
     font-family: 'Reem Kufi', sans-serif;
-    width: 100%;
-    
-    
+    width: 100%; 
 }
-
-
 
 
 
@@ -119,6 +113,19 @@ body {
     width: auto;
     }
 
+    .link-img {
+        height: 40px;
+    }
+
+    .aside-note {
+        color: rgba(250, 255, 5);
+        margin-top: 7%;
+       text-align: center;
+       font-size: 30px;
+       
+
+    }
+
 
 
 
@@ -193,10 +200,14 @@ body {
     width: 100%;
     color: white;
     text-align: left;
-   
-    margin-left: 20px;
+   margin-left: 20px;
   
 } 
+
+.sen-footer {
+    float: right;
+    margin-right: 40px;
+}
 
 
 
@@ -301,6 +312,19 @@ body {
   .col-sm-3 {
       margin: auto;
       font-size: 10px;
+  }
+
+  .reg-text, .reg-textarea, .reg-radio-text {
+      width: 90%;
+      
+  }
+
+  .reg-con {
+      margin-left: 5%;
+  }
+
+  .container {
+      width: 100vw;
   }
 
   .footer {
