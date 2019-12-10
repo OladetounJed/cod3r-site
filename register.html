@@ -84,9 +84,26 @@
       let fullname = document.querySelector('[name="fullname"]').value;
       let email = document.querySelector('[name="email"]').value;
       let phone_no = document.querySelector('[name="phone_no"]').value;
+      let state_residence = document.querySelector('[name="state_residence"]').value;
+      let bio = document.querySelector('[name="bio"]').value;
+      let why_web = document.querySelector('[name="why_web"]').value;
+      let knowledge = document.querySelector('[name="knowledge"]:checked').value;
+      let workspace = document.querySelector('[name="workspace"]:checked').value;
+      let fulltime = document.querySelector('[name="fulltime"]:checked').value;
 
       const url = 'http://localhost:3000/users/create';
-      const data = { full_name: fullname, email: email, phone_no: phone_no };
+      const data = {
+        full_name: fullname,
+        email: email,
+        phone_no: phone_no,
+        state_residence: state_residence,
+        bio: bio,
+        why_web: why_web,
+        knowledge: knowledge,
+        workspace: workspace,
+        fulltime: fulltime
+      };
+      // console.log(data);
       try {
         const response = await fetch(url, {
           method: 'POST', // or 'PUT'
