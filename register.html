@@ -46,31 +46,30 @@
       <div class="col-sm-6">
         <div class="reg-con">
           <p class="reg-intro"><u>Register</u></p>
-          <form method="POST" action="/success" data-netlify="true" autocomplete="off">
+          <form name="form2" method="POST" action="/success.html" data-netlify="true" autocomplete="off">
             <input class="reg-text" name="fullname" type="text" placeholder="Your Full Name" required/><br />
             <input class="reg-text" name="email" type="email" placeholder="Email Address" required /><br />
             <input class="reg-text" name="phone_no" type="text" placeholder="Phone Number" required /><br />
             <input class="reg-text" name="state_residence" type="text" placeholder="State of Residence" required/><br />
             <input class="reg-textarea" name="bio" type="textarea" placeholder="Tell us more about you" required /><br />
-            <input class="reg-textarea" name="why_web" type="textarea"
-              placeholder="Tell us why you want to learn web development" required/><br />
+            <input class="reg-textarea" name="why_web" type="textarea" placeholder="Tell us why you want to learn web development" required/><br />
             <p class="reg-radio-text">
               Do you have any prior knowledge of HTML and CSS?<br />
             </p>
-            <input type="radio" value="0" name="knowledge" />No <br />
-            <input type="radio" value="1" name="knowledge" />Yes <br />
+            <input type="radio" value="0" name="knowledge-no" />No <br />
+            <input type="radio" value="1" name="knowledge-yes" />Yes <br />
             <p class="reg-radio-text">
               Are you financially stable to get a co-working space to faciliate your
               learning?<br />
             </p>
-            <input type="radio" value="0" name="workspace" />No <br />
-            <input type="radio" value="1" name="workspace" />Yes <br />
+            <input type="radio" value="0" name="workspace-no" />No <br />
+            <input type="radio" value="1" name="workspace-yes" />Yes <br />
             <p class="reg-radio-text">
               Are you willing to learn and code fulltime for the next 6
               months?<br />
             </p>
-            <input type="radio" value="0" name="fulltime" />No <br />
-            <input type="radio" value="1" name="fulltime" />Yes <br />
+            <input type="radio" value="0" name="fulltime-no" />No <br />
+            <input type="radio" value="1" name="fulltime-yes" />Yes <br />
             <input class="reg-submit-btn" type="submit" placeholder="Submit" />
           </form>
         </div>
